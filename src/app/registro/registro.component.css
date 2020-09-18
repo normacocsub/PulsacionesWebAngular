@@ -1,0 +1,15 @@
+form{
+    width: 600px;
+    padding: 16px;
+	border-radius:10px;
+    margin:auto;
+    background-color:rgb(216, 207, 207);
+    
+}
+
+label{
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 12px 12px 0; 
+}

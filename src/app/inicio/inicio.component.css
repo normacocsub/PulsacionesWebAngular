@@ -1,0 +1,13 @@
+#head h1
+{
+  text-align: center;
+}
+
+#main p
+{
+  border: 1px solid #000;
+  background-color: rgb(162, 208, 209);
+  border-radius: 5px;
+  width: 45%;
+  
+}

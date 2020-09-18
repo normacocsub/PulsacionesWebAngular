@@ -1,0 +1,24 @@
+#t01 tr:nth-child(even) 
+  {
+    background-color: #eee;
+  }
+  #t01 tr:nth-child(odd) {
+    background-color: rgb(196, 163, 163);
+  }
+  #t01 th {
+    color: white;
+    background-color: rgb(117, 113, 113);
+  }
+  #t01 table{
+    margin:0 auto;
+    width: 600px;
+    padding: 16px;
+  }
+  #t01 div{
+    text-align: center;
+  }
+
+  #t02 th {
+    color: black;
+    background-color: rgb(221, 220, 220);
+  }

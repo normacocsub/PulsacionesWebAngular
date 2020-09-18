@@ -1,0 +1,41 @@
+<form class="jumbotron jumbotron-fluid">
+  
+    <div class="form-group">
+        <label for="exampleInputEmail1">Registro</label>
+        <input type="text" class="form-control" [(ngModel)]="identificacion" name="identificacion"  id="identificacion" placeholder="identificacion">
+    </div>
+    <div class="form-row">
+      <div class="col">
+        <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="nombre" placeholder="Nombre">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" id="apellido" name="apellido" [(ngModel)]="apellido" placeholder="Apellido"><br>
+      </div>
+      
+    </div>
+    <div class="form-group">
+        <input type="number" class="form-control" [(ngModel)]="edad" name="edad" id="edad" placeholder="edad">
+    </div>
+
+    <div class="form-group col-md-4">
+        <label for="sexo2">Sexo</label>
+        <select [(ngModel)]="sexo" id="sexo" name="sexo" class="form-control" >
+          <option selected>Seleccionar</option>
+          <option>Femenino</option>
+          <option>Masculino</option>
+        </select>
+
+        
+      </div>
+
+      <div class="form-group">
+        <button id="btnCalcular" type="button" (click)="calcularPulsacion()" class="btn btn-success">Calcular</button>
+      </div>
+      <div class="form-group">
+        <label for="pulsacion">Pulsacion</label>
+        <input type="number" class="form-control" id="pulsacion" placeholder="Pulsacion" value={{pulsacion}} disabled><br>
+      </div>
+      <div class="form-group">
+        <button id="btnGuardar" type="button"   class="btn btn-success">Guardar</button>
+      </div>
+  </form>
